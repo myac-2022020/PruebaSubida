@@ -9,7 +9,7 @@ public class Principal{
 		Operaciones op = new Operaciones();
 		while(opcion!=5){
 			op.mostrarMenu();
-			System.out.println("Escoge una opcion valida");
+			System.out.println("Escoge una opcion");
 			opcion = leer.nextInt();
 			switch(opcion){
 				case 1:
